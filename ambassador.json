@@ -16,8 +16,7 @@
   "editable": true,
   "gnetId": 4698,
   "graphTooltip": 0,
-  "id": 20,
-  "iteration": 1546377447792,
+  "iteration": 1546385630046,
   "links": [],
   "panels": [
     {
@@ -431,6 +430,8 @@
         {
           "expr": "envoy_cluster_manager_active_clusters",
           "format": "time_series",
+          "hide": false,
+          "instant": true,
           "intervalFactor": 2,
           "refId": "A"
         }
@@ -1190,5 +1191,5 @@
   "timezone": "browser",
   "title": "Ambassador",
   "uid": "TL3NFHUmk",
-  "version": 4
+  "version": 1
 }
